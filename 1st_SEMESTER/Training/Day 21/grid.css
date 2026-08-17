@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  width: 600px;
+  gap: 10px;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+}
+.item_1,
+.item_5,
+.item_6 {
+  height: 200px;
+  background-color: red;
+}
+.item_2,
+.item_3 {
+  grid-column: span 2;
+  height: 200px;
+  background-color: red;
+}
+.item_4 {
+  grid-row: span 2;
+  height: 410px;
+  background-color: red;
+}

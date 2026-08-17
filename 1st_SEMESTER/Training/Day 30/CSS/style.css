@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: rgb(75, 71, 71);
+    position: fixed;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    padding: 10px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+.nav ul li:hover {
+    background-color: orange;
+    border-radius: 15px;
+    scale: 1.1;
+}
+
+.lore {
+  margin-top: 100px;
+}

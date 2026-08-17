@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px 50px;
+  padding: 20px;
+}
+.product1 {
+  height: 300px;
+  background-color: blue;
+  border: 2px solid black;
+}
+.product2 {
+  height: 300px;
+  background-color: red;
+  border: 2px solid black;
+}
+.product {
+  height: 300px;
+  background-color: red;
+  border: 2px solid black;
+}
+.product3 {
+  height: 300px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+.product4 {
+  height: 300px;
+  background-color: green;
+  border: 2px solid black;
+}

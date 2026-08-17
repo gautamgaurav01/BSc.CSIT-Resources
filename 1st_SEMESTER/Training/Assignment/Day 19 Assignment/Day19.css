@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    width: 40vw;
+}
+.alphabet{
+    text-align: center;
+    font-weight: bold;
+    height: 100%;
+    width: 13%;
+}
+.all{
+    display: flex;
+}
+.left{
+        display: flex;
+        flex-direction: column;
+        font-size: larger;
+        width: 40px;
+}
+.alphabet1{
+    text-align: center;
+    font-weight: bold;
+    height: 13%;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 40vw;
+    border: 2px solid black;
+}
+.first_container, .second_container{
+    display: flex;
+    width: 100%;
+    height: 12.5%;
+}
+.first{
+    background-color: white;
+    height: 100%;
+    width: 13%;
+}
+.second{
+    background-color: gray;
+    height: 100%;
+    width: 13%;
+}

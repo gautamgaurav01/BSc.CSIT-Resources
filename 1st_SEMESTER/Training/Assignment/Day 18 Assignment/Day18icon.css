@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 2cm;
+    gap: 0px;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    word-spacing: 1.5cm;
+}
+

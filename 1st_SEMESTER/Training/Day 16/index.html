@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+      .flag {
+        display: flex;
+        gap: 20px;
+      }
+      .finland {
+        width: 150px;
+        height: 120px;
+        background-color: white;
+        border: 1px solid black;
+      }
+      .finland_blue1 {
+        background-color: blue;
+        width: 150px;
+        height: 15px;
+        position: absolute;
+        top: 60px;
+      }
+      .finland_blue2 {
+        background-color: blue;
+        width: 15px;
+        height: 120px;
+        position: absolute;
+        top: 9px;
+        left: 50px;
+      }
+      .switzerland {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 120px;
+        background-color: red;
+      }
+      .switzerland_white1 {
+        background-color: white;
+        width: 70px;
+        height: 20px;
+      }
+      .switzerland_white2 {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        width: 20px;
+        height: 70px;
+        position: absolute;
+        left: 245px; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flag">
+      <div class="finland">
+        <div class="finland_white"></div>
+        <div class="finland_blue1"></div>
+        <div class="finland_blue2"></div>
+      </div>
+      <div class="switzerland">
+        <div class="switzerland_white1"></div>
+        <div class="switzerland_white2"></div>
+      </div>
+    </div>
+  </body>
+</html>

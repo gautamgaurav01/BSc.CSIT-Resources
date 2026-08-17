@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.main img {
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}

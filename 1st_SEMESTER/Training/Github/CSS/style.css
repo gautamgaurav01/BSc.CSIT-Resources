@@ -1,0 +1,40 @@
+#bird {
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
+}
+
+.imgg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 400px;
+  width: 500px; 
+}
+
+figcaption {
+  opacity: 0;
+  color: black;
+  text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
+}
+
+.pic:hover {
+  figcaption {
+    opacity: 1;
+  }
+  img {
+    opacity: 0.5;
+  }
+}

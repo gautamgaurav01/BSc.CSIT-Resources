@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 10px;
+
+}
+.box{
+    background-color: rgb(196, 58, 58);
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+}
+.box1{
+    grid-column: 1/5;
+}
+.box3{
+    background-color: yellow;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    
+}

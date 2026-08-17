@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vh;
+    background-color: white;
+}
+.container{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    gap: 5px;
+}
+.box{
+    font-size: larger;
+    text-align: center;
+}
+.box1{
+    grid-column: span 3;
+    background-color: skyblue;
+}
+.box2, .box3{
+    background-color: blue;
+   padding: 80px;
+}
+.box4{
+    grid-row: span 2;
+    background-color: red;
+}
+.box5{
+    grid-column: span 2;
+    background-color: yellow;
+}

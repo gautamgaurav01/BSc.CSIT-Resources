@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .a {
+        text-align: left;
+        background-color: aliceblue;
+      }
+      .b {
+        color: rgb(73, 73, 216);
+        text-align: center; text-decoration: underline;
+      }
+      .c {
+        background-color: rgb(12, 12, 160);
+        color: white;
+        width: 20cm;
+        height: 21 cm;
+        margin-left: 10cm;
+      }
+      .s {
+        text-align: center;
+      }
+      table{
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="a">
+        <div class="b">
+          <h2>Student Registration form </h2>
+        </div>
+        <div class="c">
+          <br />
+          <div class="Name">
+            <label for="First Name">First Name</label>
+            <input type="First Name" id="First Name" maxlength="30" required />
+            (max 30 characters a-z and A-Z)
+          </div>
+          <br />
+          <div class="Name">
+            <label for="Last Name">Last Name</label>
+            <input type="Last Name" id="Name" maxlength="30" required /> (max 30
+            characters a-z and A-Z)
+          </div>
+          <br />
+          <div class="date">
+            <label for="date">Date</label>
+            <input type="date" id="date" required />
+          </div>
+          <br />
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+          <br />
+          <div class="number">
+            <label for="number">Mobile Number</label>
+            <input type="number" id="number" maxlength="10" required /> (10
+            digit number)
+          </div>
+          <br />
+          <div>
+            <label for="gender">Gender</label>
+            <input type="radio" value="male" required /> Male
+            <input type="radio" value="female" required /> Female
+          </div>
+          <br />
+          <div>
+            <label for="address">Address</label>
+            <textarea name="" id="" required></textarea>
+          </div>
+          <br />
+          <div>
+            <label for="city">City</label>
+            <input type="city" id="city" maxlength="30" required />(max 30
+            characters a-z and A-Z)
+          </div>
+          <br />
+          <div>
+            <label for="pin">Pin Code</label>
+            <input type="pin" id="pin" required />(6 digit number)
+          </div>
+          <br />
+          <div>
+            <label for="state">State</label>
+            <input type="state" id="state" required />(max 30 characters a-z and
+            A-Z)
+          </div>
+          <br />
+          <div>
+            <label for="country">Country</label>
+            <input type="country" id="country" required />
+          </div>
+          <br />
+          <div>
+            <label for="hobbies">Hobbies</label>
+            <input type="checkbox" required /> Drawing
+            <input type="checkbox" required /> Singing
+            <input type="checkbox" required /> Dancing
+            <input type="checkbox" required /> Sketchimg
+            <input type="checkbox" required /> Others
+            <input type="text" required />
+          </div>
+          <br />
+          <div>
+            <label for="">Qualification</label>
+            <table border="1">
+              <tr>
+                <th>Sl.No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" maxlength="10" /></td>
+                <td><input type="text" maxlength="5" /></td>
+                <td><input type="text" maxlength="4" /></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" maxlength="10" /></td>
+                <td><input type="text" maxlength="5" /></td>
+                <td><input type="text" maxlength="4" /></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" maxlength="10" /></td>
+                <td><input type="text" maxlength="5" /></td>
+                <td><input type="text" maxlength="4" /></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text" maxlength="10" /></td>
+                <td><input type="text" maxlength="5" /></td>
+                <td><input type="text" maxlength="4" /></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>(10 char ma)</td>
+                <td>(upto 2 decimal)</td>
+              </tr>
+            </table>
+          </div>
+          <br />
+          <div>
+            <label>Courses Applied For</label>
+            <input type="radio" value="BCA" required /> BCA
+            <input type="radio" value="B.Com" required /> B.Com
+            <input type="radio" value="B.Sc" required /> B.Sc
+            <input type="radio" value="B.A" required /> B.A
+          </div>
+          <br />
+          <div class="s">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Clear" />
+          </div>
+        </div>
+      </div>
+      <br />
+    </form>
+  </body>
+</html>

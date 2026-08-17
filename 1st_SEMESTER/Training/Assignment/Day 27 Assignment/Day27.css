@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99vh;
+    width: 99vw;
+    background-color: gray;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 90%;
+    width: 50%;
+    background-color: navy;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 15px;
+}
+.box1{
+  background-color: skyblue;
+  grid-column: span 3;
+  border-radius: 15px;
+}
+.box2{
+    background-color: white;
+    border-radius: 20px;
+}
+.box3{
+    background-color: purple;
+    grid-column: span 2;
+    border-radius: 20px;
+}
+.box1:hover{
+    background-color: brown ;
+}
+.box2:hover{
+    background-color: yellow;
+}
+.box3:hover{
+    background-color: tomato ;
+}

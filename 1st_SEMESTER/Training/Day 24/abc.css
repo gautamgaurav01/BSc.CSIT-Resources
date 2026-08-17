@@ -1,0 +1,55 @@
+h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/1200px-New_york_times_square-terabass.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height: 40vw;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 5px black;
+  gap: 10px;
+  backdrop-filter: blur(2px);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.name input,
+.password input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.forget {
+  text-align: left;
+  color: white;
+}
+.submit button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.signup {
+    text-align: center;
+  color: white;
+}
+.signup a{
+    color: white;
+    text-decoration: underline;
+  }
+  

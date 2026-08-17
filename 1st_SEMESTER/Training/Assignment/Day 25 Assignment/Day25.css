@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 99.9vh;
+    width: 99.9vw;
+    background-color: pink;
+    gap: 10px;
+}
+.instagram_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family:cursive ;
+    gap: 10px;
+}
+.instagram_top img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;  
+}
+.container{
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.left_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(221, 216, 216);
+    border-radius: 10px;
+}
+.instagram_logo{
+    font-family: cursive;
+    width: 230px;
+}
+.instagram_logo i{
+  color: orangered;
+  font-size: larger;
+}
+.profile_picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile_picture:hover{
+    scale: 1.2;
+}
+.profile_picture img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid orangered;
+}
+.posts_followers_following{
+    display: flex;
+   text-align: center;
+    gap: 30px;
+}
+.posts_followers_following:hover{
+    scale: 1.2;
+}
+.no{
+    font-weight: bolder;
+}
+.feed_setting{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 230px;
+}
+.feed_setting a{
+    text-decoration: none;
+}
+.feed{
+    display: flex;
+    color: red;
+    gap: 20px;
+}
+.feed a:hover{
+    scale: 1.5;
+}
+.feed a{
+    text-decoration: none;
+    color: red;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.icon a:hover{
+    scale: 1.5;
+    color: red
+}
+.right_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: none;
+}
+.right_container_top{
+    display: flex;
+    gap: 500px;
+    height: 5%;
+}
+.right_top_right{
+display: flex;
+gap: 30px;
+}
+.right_container_top i:hover{
+    scale: 1.5;
+}
+input{
+    height: 20px;
+    width: 100px;
+}
+.add_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: orangered;
+    border-radius: 5px;
+    height: 30px;
+}
+.add_photo:hover{
+    scale: 1.2;
+}
+.stories{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   overflow: hidden;
+   height: 15%;
+   padding-left: 10px;
+}
+.stories img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid orangered;
+}
+.stories img:hover{
+    scale: 1.5;
+}
+.feed_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 53%;
+    overflow: hidden;
+    overflow-y: scroll;
+    gap: 10px; 
+    padding: 10px;
+    padding-bottom: none;
+}
+.feed_container::-webkit-scrollbar {
+    display: none;
+} 
+.feed_container img{
+   height: 180px;
+   border-radius: 8px;
+   width: 100%;
+}
+  .post .caption {
+    font-size: 0.9em;
+    padding: 5px;
+    color: #555;
+  }
+  .post .profile_username {
+    font-weight: bold;
+  }
+  .feed_container:hover > :not(:hover) {
+    scale: 0.9;
+  }
+  .caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  .caption img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid orangered;
+}
+.profile_username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

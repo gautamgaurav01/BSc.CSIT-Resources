@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Table Alignment</title>
+    <style>
+      section {
+        font-weight: bold;
+        font-size: 24px;
+      }
+      .a {
+        margin: 32px auto;
+        border: 4px solid black;
+        width: 800px;
+      }
+      #b {
+        border: 2px solid black;
+        margin-left: 1cm;
+        margin-right: 1cm;
+      }
+      body {
+        font-family: cursive;
+        text-align: center;
+      }
+      table {
+        margin: 16px auto;
+      }
+      .t1 {
+        border-spacing: 25px 0;
+        border-collapse: separate;
+      }
+      .t1 th,
+      .t1 td {
+        border: 2px solid black;
+        padding: 16px;
+      }
+      .t2 td {
+        border: 5px solid black;
+      }
+      .t4 {
+        border-spacing: 10px 10px;
+        border-collapse: separate;
+      }
+      .t4 th,
+      .t4 td {
+        border: 3px solid black;
+        width: 80px;
+        height: 70px;
+      }
+      #head {
+        border-style: solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <section>Horizontal and Vertical Alignment</section>
+    </div>
+    <div class="a">
+      <br />
+      <div id="b">
+        <p>Cell Allignment with CSS</p>
+      </div>
+      <table class="t1">
+        <br />
+        <tr>
+          <td>Examples</td>
+          <td>
+            <table class="t2">
+              <td>
+                <table class="t4">
+                  <tr id="head">
+                    <th>Row</th>
+                    <th>Cell-1</th>
+                    <th>Cell-2</th>
+                    <th>Cell-3</th>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                    <td>CSS</td>
+                  </tr>
+                </table>
+              </td>
+            </table>
+            <b>Nested Table</b>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

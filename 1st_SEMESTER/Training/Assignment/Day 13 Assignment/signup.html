@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Form</title>
+    <style>
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: black;
+      }
+
+      .signup {
+        background: white;
+        padding: 40px 20px;
+        border: 0.5px solid black;
+        width: 350px;
+        margin: 80px auto;
+      }
+
+      .name input,
+      .password input {
+        width: 90%;
+        max-width: 330px;
+        padding: 10px;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+      }
+
+      .submit button {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+        background-color: gray;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin: 20px auto;
+      }
+
+      .login a {
+        color: gray;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="signup">
+      <h2>Signup</h2>
+      <form action="../Day13.html/login.html">
+        <div class="name"> 
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+        <div class="password">
+          <input type="password" placeholder="Create a password" required />
+        </div>
+        <div class="password">
+          <input type="password" placeholder="Confirm a password" required />
+        </div>
+        <div class="submit">
+          <button type="submit">Signup</button>
+        </div>
+        <div class="login">
+          Already have an account?
+          <a href="../Day13.html/login.html" target="_blank">Login</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

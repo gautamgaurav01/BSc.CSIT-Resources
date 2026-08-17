@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 125vh;
+  background-color: white;
+}
+.container {
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(37, 20px);
+  gap: 10px;
+}
+.box1 {
+  grid-column: span 7;
+  grid-row: span 2;
+  background-color: red;
+}
+.box2 {
+  grid-column: span 12;
+  grid-row: span 2;
+  background-color: blueviolet;
+}
+.box3 {
+  grid-column: span 5;
+  grid-row: span 2;
+  background-color: green;
+}
+.box4 {
+  grid-column: span 5;
+  grid-row: span 6;
+  background-color: skyblue;
+}
+.box5 {
+  grid-column: span 7;
+  grid-row: span 6;
+  background-color: blue;
+}
+.box6 {
+  grid-row: span 6;
+  background-color: skyblue;
+}
+.box7 {
+  grid-column: span 7;
+  grid-row: span 4;
+  background-color: orangered;
+}
+.box8 {
+  grid-column: span 17;
+  grid-row: span 4;
+  background-color: orange;
+}

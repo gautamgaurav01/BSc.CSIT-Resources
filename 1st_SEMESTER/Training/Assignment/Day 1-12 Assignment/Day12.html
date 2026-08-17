@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form</title>
+    <style>
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-family: cursive;
+        color: black;
+      }
+      .login {
+        background: white;
+        padding: 20px 30px;
+        border: 0.5px solid black;
+        width: 400px;
+        margin: 200px auto 550px auto; 
+      }
+      .name label, 
+      .password label,
+      .remember label {
+        margin: 15px 10px 15px 10px;
+      }
+      .name input,
+      .password input {
+        width: 350px;
+        padding: 10px;
+        margin: 10px 10px 15px 10px;
+        border: 1px solid #ccc;
+      }
+      .remember {
+        text-align: left;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        margin-left: 10px;
+      }
+      .submit button {
+        width: 400px;
+        padding: 10px;
+        background-color: blue;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login">
+      <h2>Login Form</h2>
+      <form action="https://nepathyacollege.edu.np/" method="post">  
+        <div class="name">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+        </div>
+        <div class="password">
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+            required
+          />
+        </div>
+        <div class="remember">
+          <input type="checkbox" id="remember" />
+          <label for="remember">Remember</label>
+        </div>
+        <div class="submit">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

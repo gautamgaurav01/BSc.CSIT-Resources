@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100%;
+}
+.first_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  height: 100px;
+  width: 80%;
+  border: 5px solid blue;
+  gap: 10px;
+}
+.first1,
+.first3 {
+  background-color: wheat;
+  height: 70px;
+  width: 30%;
+  border: 5px solid orange;
+}
+.first2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  height: 70px;
+  width: 30%;
+  border: 5px solid orange;
+}
+.first2_1 {
+  background-color: pink;
+  height: 50px;
+  width: 40%;
+  border: 5px solid red;
+}
+.first2_2 {
+  background-color: pink;
+  height: 50px;
+  width: 40%;
+  border: 5px solid red;
+}
+.second_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  height: 200px;
+}
+.second1 {
+  background-color: pink;
+  height: 100%;
+  width: 50%;
+  border: 5px solid red;
+}
+.second_container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 48%;
+  height: 100%;
+}
+.second2 {
+  background-color: pink;
+  height: 50%;
+  width: 100%;
+  border: 5px solid red;
+}
+.third_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  height: 100px;
+  width: 80%;
+  border: 5px solid blue;
+  gap: 10px;
+}
+.third1 {
+  background-color: lightcyan;
+  height: 70px;
+  width: 28%;
+  border: 5px solid gray;
+}
+.third2 {
+  background-color: wheat;
+  height: 70px;
+  width: 15%;
+  border: 5px solid orange;
+}

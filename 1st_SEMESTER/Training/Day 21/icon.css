@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 2cm;
+}
+.main {
+  background-color: rgb(244, 237, 237);
+  margin-inline: 100px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 60px 150px;
+  padding: 100px;
+  box-shadow: 5px 5px 10px black;
+}
+.product {
+  height: 100px;
+  cursor: pointer;
+  text-align: center;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-shadow: 5px 5px 5px black;
+}
+.product i {
+  font-size: 2cm;
+  color: rgb(42, 42, 174);
+}
+.product p {
+  margin-top: 15px;
+  font-size: large;
+}
+p:hover{
+  font-size: 25px;
+}
+ i:hover{
+  font-size: 2.5cm;
+ }
+ 

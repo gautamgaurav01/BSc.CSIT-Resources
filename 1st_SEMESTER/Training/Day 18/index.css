@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+    gap: 30px;
+}
+.first_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+    width: 98%;
+    text-align: center;
+    background-color: blue;
+    border: 3px solid black;
+}
+.first{
+    height: 90%;
+    width: 18%;
+    background-color: pink;
+}
+.name{
+    text-align: center;
+    font-size: x-large;
+}
+.second_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+    width: 100%;
+    gap: 30px;
+}
+.second img{
+    width: 330px;
+    height: 200px;
+    border: 8px solid green;
+}

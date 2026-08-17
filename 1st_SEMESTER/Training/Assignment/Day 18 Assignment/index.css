@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.top_container{
+    color: blue;
+}
+.top_container i{
+    font-size: 1cm;
+    color: gray;
+}
+.middle_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    gap: 20px;
+}
+.middle_container i{
+    color: darkblue;
+    font-size: 3cm;
+}
+.middle_container pre{
+    font-size: medium;
+    font-family: cursive;
+}
+.middle_container p{
+    color: blue;
+    font-size: xx-large;
+}

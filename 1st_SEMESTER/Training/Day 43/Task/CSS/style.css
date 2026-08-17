@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+
+.first_container {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    width: 1200px;
+    height: 300px;
+}
+
+.fc1 {
+    height: 100%;   
+    width: 30%;
+    background-color: pink;
+}
+.fc2 {
+    height: 100%;
+    width: 60%;
+    background-color: pink;
+}

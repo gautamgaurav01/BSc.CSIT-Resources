@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 10px black;
+    height: 90vh;
+    width: 60vw;
+    background-color: darkblue;
+    margin-top: 10px;
+}
+.first_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 5px 10px 10px black;
+    height: 95%;
+    width: 95%;
+    background-color: red;
+}
+.second_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 5px 10px 10px black;
+    height: 90%;
+    width: 90%;
+    background-color: yellow;
+}
+.third_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 5px 10px 10px black;
+    height: 85%;
+    width: 85%;
+    background-color: blue;
+}
+.fourth_container{
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        box-shadow: 5px 10px 10px black;
+        height: 80%;
+        width: 70%;
+        background-color: red;
+        border-radius: 50%;
+}
+.fifth_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 5px 10px 10px black;
+    height: 70%;
+    width: 70%;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.sixth_container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    box-shadow: 5px 10px 10px black;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    border-radius: 50%;
+}

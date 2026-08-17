@@ -1,0 +1,12 @@
+p {
+  font-size: larger;
+  color: white;
+  background-image: url(./15123146.jpg);
+  background-size: cover;
+  height: 20vh;
+  width: 90vw;
+}
+p:hover {
+  color: blue;
+}
+

@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  background-color: blue ;
+  gap: 10px;
+  margin-top: 150px;
+  box-shadow: 10px 25px 50px black;
+}
+.first_container input {
+    display: flex;
+    justify-content: center;
+  height: 80px;
+  width: 270px;
+}
+.second_container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+  text-align: center;
+}
+button {
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: inset 5px 5px 5px black;
+}
+.C{
+    background-color: orange;
+}
+.third_container button {
+  background-color: orange;
+  width: 290px;
+  text-align: center;
+}
+ 
